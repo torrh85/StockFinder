@@ -22,7 +22,6 @@ struct StockSearchRow: View {
                 .font(.headline)
         }
         .padding()
-
     }
 }
 

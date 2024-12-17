@@ -13,6 +13,7 @@ class StocksSearchViewModel: ObservableObject {
     @Published var stocks = [Stock]()
     @Published var networkError: NetworkError?
     @Published var isLoading = false
+    @Published var showEmptyState = false
     
     private var cancellables = Set<AnyCancellable>()
     private var repository: SearchStocksRepository
@@ -50,6 +51,7 @@ class StocksSearchViewModel: ObservableObject {
             await MainActor.run {
                 stocks = result
                 isLoading = false
+                showEmptyState = stocks.isEmpty
             }
         } catch {
             await MainActor.run {

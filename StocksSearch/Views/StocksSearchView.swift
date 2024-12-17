@@ -20,13 +20,7 @@ struct StocksSearchView: View {
                 ProgressView()
                     .progressViewStyle(.circular)
             } else {
-                List {
-                    ForEach(viewModel.stocks) { stock in
-                        VStack(alignment: .leading) {
-                            StockSearchRow(stock: stock)
-                        }
-                    }
-                }
+                contentView
                 .navigationTitle("Stocks")
             }
             
@@ -40,6 +34,31 @@ struct StocksSearchView: View {
         .onAppear {
             viewModel.getCacheStocks()
             viewModel.setupSearchTextListener()
+        }
+    }
+    
+    @ViewBuilder
+    var contentView: some View {
+        if viewModel.showEmptyState {
+            VStack {
+                Spacer()
+                Image(systemName: "magnifyingglass")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 40, height: 40)
+                    .foregroundColor(.gray)
+                Text("No stocks found")
+                    .font(.title)
+                Spacer()
+            }
+        } else {
+            List {
+                ForEach(viewModel.stocks) { stock in
+                    VStack(alignment: .leading) {
+                        StockSearchRow(stock: stock)
+                    }
+                }
+            }
         }
     }
 }
