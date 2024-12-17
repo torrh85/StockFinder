@@ -1,0 +1,27 @@
+[
+    {
+        "ticker": "ULUG",
+        "name": "Vanguard Resources",
+        "currentPrice": 485.02
+    },
+    {
+        "ticker": "GZRQ",
+        "name": "Omni Industries",
+        "currentPrice": 448.5
+    },
+    {
+        "ticker": "UXEQ",
+        "name": "Harmony Ltd",
+        "currentPrice": 370.55
+    },
+    {
+        "ticker": "GWGL",
+        "name": "Crest Corp",
+        "currentPrice": 673.54
+    },
+    {
+        "ticker": "AOYU",
+        "name": "Nexus Group",
+        "currentPrice": 561.82
+    }
+]

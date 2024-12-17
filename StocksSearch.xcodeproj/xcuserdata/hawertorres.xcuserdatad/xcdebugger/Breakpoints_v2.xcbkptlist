@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "49F4DBE0-0F2F-4810-A1E9-C4FA941F487E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9B3F94F-5D50-4147-B342-D1869801ED86"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StocksSearch/StocksSearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getCacheStocks()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F9B3F94F-5D50-4147-B342-D1869801ED86 - 477d17ffe786aa07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in StocksSearch.StocksSearchViewModel.getCacheStocks() -&gt; ()"
+                  moduleName = "StocksSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hawertorres/Documents/StocksSearch/StocksSearch/StocksSearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "F9B3F94F-5D50-4147-B342-D1869801ED86 - 7aff006d6428b148"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for closure #1 @Sendable () async -&gt; () in StocksSearch.StocksSearchViewModel.getCacheStocks() -&gt; ()"
+                  moduleName = "StocksSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hawertorres/Documents/StocksSearch/StocksSearch/StocksSearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "F9B3F94F-5D50-4147-B342-D1869801ED86 - d6b8777266a5e801"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async -&gt; () in StocksSearch.StocksSearchViewModel.getCacheStocks() -&gt; ()"
+                  moduleName = "StocksSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hawertorres/Documents/StocksSearch/StocksSearch/StocksSearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "F9B3F94F-5D50-4147-B342-D1869801ED86 - de33dea857f5594d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in StocksSearch.StocksSearchViewModel.getCacheStocks() -&gt; ()"
+                  moduleName = "StocksSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hawertorres/Documents/StocksSearch/StocksSearch/StocksSearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7629211-17E5-4350-A870-1D31E1854C92"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StocksSearch/DataLayer/Repositories/Persistence/CacheManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getStock(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C7629211-17E5-4350-A870-1D31E1854C92 - d2e2b508c3abcd95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StocksSearch.CacheManager.saveStocks(Swift.Array&lt;StocksSearch.Stock&gt;) -&gt; ()"
+                  moduleName = "StocksSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hawertorres/Documents/StocksSearch/StocksSearch/DataLayer/Repositories/Persistence/CacheManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "C7629211-17E5-4350-A870-1D31E1854C92 - d2e2b508c3abcd95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StocksSearch.CacheManager.saveStocks(Swift.Array&lt;StocksSearch.Stock&gt;) -&gt; ()"
+                  moduleName = "StocksSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hawertorres/Documents/StocksSearch/StocksSearch/DataLayer/Repositories/Persistence/CacheManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A5D3295-5D14-42F0-9796-2C301C086C49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StocksSearch/DataLayer/Repositories/Persistence/CacheManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getAllStocks()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
